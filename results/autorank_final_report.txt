@@ -1,0 +1,27 @@
+RankResult(rankdf=
+          meanrank    median       mad  ci_lower  ci_upper effect_size   magnitude effect_size_above magnitude_above
+PCA+DT        4.50  0.955556  0.021498  0.869565  0.977778         0.0  negligible               0.0      negligible
+PCA+RF        3.70  0.956039  0.021739  0.913043       1.0   -0.015072  negligible         -0.015072      negligible
+PCA+SVM       2.50  0.978019  0.000242  0.956522       1.0   -0.996682       large         -0.964413           large
+STACK_LR      2.45  0.977778  0.000483  0.934783       1.0   -0.985778       large          0.426585           small
+PCA+MLP       1.85  0.978261  0.011111  0.956522       1.0   -0.894987       large         -0.041434      negligible
+pvalue=0.0001223315169250757
+cd=1.9288111473713958
+omnibus=friedman
+posthoc=nemenyi
+all_normal=False
+pvals_shapiro=[np.float64(0.06538871193610443), np.float64(0.38434654726736195), np.float64(0.0004518126413008118), np.float64(0.006414609347816495), np.float64(0.017874403614660153)]
+homoscedastic=True
+pval_homogeneity=0.1300965865039178
+homogeneity_test=levene
+alpha=0.05
+alpha_normality=0.01
+num_samples=10
+posterior_matrix=
+None
+decision_matrix=
+None
+rope=None
+rope_mode=None
+effect_size=akinshin_gamma
+force_mode=None)

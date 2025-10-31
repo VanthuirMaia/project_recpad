@@ -1,0 +1,2 @@
+Modelo,ACC,AUC,LogLoss,Brier
+STACK_LR,0.9737,0.9949,0.0756,0.0171
